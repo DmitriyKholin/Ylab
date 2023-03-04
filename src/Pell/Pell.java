@@ -1,7 +1,5 @@
 package Pell;
-
 import java.util.Scanner;
-
 public class Pell {
     public static long pellNumber(int n) {
 

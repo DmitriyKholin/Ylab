@@ -1,7 +1,5 @@
 package Guess;
-
 import java.util.Scanner;
-
 public class Guess {
         public static void main(String[] args) {
             int number = (int) (Math.random() * 98 + 2);
