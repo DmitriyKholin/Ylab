@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Guess {
         public static void main(String[] args) {
             int number = (int) (Math.random() * 98 + 2);
-
             int maxAttempts = 10;
             System.out.println("Я загадал число. У тебя " + maxAttempts + " попыток угадать.");
             Scanner in = new Scanner(System.in);

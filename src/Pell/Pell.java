@@ -15,9 +15,12 @@ public class Pell {
             return c;
         }
         public static void main(String[] args){
+
             System.out.println("Введите число");
+
             Scanner inp = new Scanner(System.in);
             int n = inp.nextInt();
+
             System.out.println("Число Пелля = " + pellNumber(n));
         }
     }
